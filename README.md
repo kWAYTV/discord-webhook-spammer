@@ -3,6 +3,7 @@
 # Setting up
 Basically it has auto config generator so just run it.
 You are done :), happy spamming!
+Be aware that spamming for long times or fast can cause ratelimits in your ip.
 # Requirements
 ```
 python -m pip install colorama
