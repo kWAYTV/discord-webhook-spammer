@@ -64,7 +64,6 @@ def spam(message, webhook):
     while count < amount:
         try:
             data = requests.post(webhook, json={'content': message})
-            time.sleep(1)
             if data.status_code == 204:
                 print(Fore.GREEN + "["+ Fore.RESET + "OK"+ Fore.GREEN + "]" + Fore.RESET + " Sent message with content: " + Fore.MAGENTA +  f"{message}" + Fore.RESET +".")
                 count += 1
